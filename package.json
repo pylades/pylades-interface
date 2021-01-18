@@ -1,6 +1,6 @@
 {
-  "name": "@uniswap/interface",
-  "description": "Uniswap Interface",
+  "name": "@pylades/interface",
+  "description": "Pylades Interface",
   "homepage": ".",
   "private": true,
   "devDependencies": {
