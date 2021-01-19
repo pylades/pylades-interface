@@ -2048,6 +2048,59 @@
     penpal "3.0.7"
     pocket-js-core "0.0.3"
 
+"@pyladesprotocol/core@^1.0.0":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@pyladesprotocol/core/-/core-1.0.2.tgz#ae7a4c2035301cf9bab3ef76de58007dacf66bcd"
+  integrity sha512-u+apR389H4NqX9nfLdfIxCx6he8VrZgaTsWRD109aUuIHQxIjiPkfX8OzNbNfvPETC+G+tWX9fnlfkDUXoQtAg==
+
+"@pyladesprotocol/governance@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@pyladesprotocol/governance/-/governance-1.0.0.tgz#35aec830842a3af299266df98e9c2d2f5752cdf6"
+  integrity sha512-I/YMZPhJ3pS8sFWXmhklLvim1v/j5swwiJl5Gc+7/plsy6yi++ePlZWmg3M4QIaNzo28c8k3J75N2uiIZqo2AA==
+
+"@pyladesprotocol/lib@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@pyladesprotocol/lib/-/lib-1.0.0.tgz#485dcf354c84569eed877ec890cce6639399af58"
+  integrity sha512-7q4tV4dTiXImpE8A5IRX6LUtmS0+HrBicrTCgaRrKoOA6fcC+/Wv+7CzHKOiKBRQem5UEXbQNjps3KwZpaSftA==
+
+"@pyladesprotocol/liquidity-staker@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@pyladesprotocol/liquidity-staker/-/liquidity-staker-1.0.0.tgz#311130c77c975eb66d0c68b33d3fc116d1a4eaf1"
+  integrity sha512-At7yRZIXvF9OjNJEKTntrr+QU9yBmG0ls3G6F+XUJyKPtX5GXj2nypclLiQejZnHheK7M9gnGyNf1mZC8URU9A==
+  dependencies:
+    openzeppelin-solidity-2.3.0 "npm:openzeppelin-solidity@2.3.0"
+
+"@pyladesprotocol/merkle-distributor@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@pyladesprotocol/merkle-distributor/-/merkle-distributor-1.0.0.tgz#9bf59d629b478cadf6042ffd18e3dd571564d0dc"
+  integrity sha512-H6Zw1U/0V9v6zuKEJq3YRxkxv7dvw+t7nLf/bCQZ2a5cXIREc+BhuiTTQNWwkc1zh0mznxeeeVLUkRuF3lhOKg==
+
+"@pyladesprotocol/periphery@^1.0.0":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@pyladesprotocol/periphery/-/periphery-1.1.2.tgz#7010c7ddaa041de1eabbf01ef6a6fb1572a8554f"
+  integrity sha512-o1Czk2KCE35kfyfVWvIzNXRQli1gH0V0jNG3+qCpSiY/B7yLpBDjlMIRaM1x6UMP3Ak6AaZxFLLUsYy7NU79yQ==
+  dependencies:
+    "@pyladesprotocol/core" "^1.0.0"
+    "@pyladesprotocol/lib" "^1.0.0"
+
+"@pyladesprotocol/sdk@^3.0.0":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@pyladesprotocol/sdk/-/sdk-3.0.3.tgz#518075bc268fbdfadea523938e5fb3e644911ebc"
+  integrity sha512-lGMJ9CQx33hhuSDnYJ+Q87TzXRB8Ov/iG33VgECgINHXr75yMSqD3vbgKMbTXxvKHEKC78A3qxyp0mS5TI2t8w==
+  dependencies:
+    "@pyladesprotocol/core" "^1.0.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
+"@pyladesprotocol/token-lists@^1.0.0":
+  version "1.0.0-beta.19"
+  resolved "https://registry.yarnpkg.com/@pyladesprotocol/token-lists/-/token-lists-1.0.0-beta.19.tgz#ffd7c63db6447ae07d3bd21cc6a8cbbe12127dd9"
+  integrity sha512-1WUjRLLriaEdWgxgeTLN9/7vR8hO2+4HigCG7BMjY17fuyDKG4jY2DoZWyYxsG4uALs491usZboxLH2sO5JveA==
+
 "@reach/dialog@^0.10.3":
   version "0.10.5"
   resolved "https://registry.yarnpkg.com/@reach/dialog/-/dialog-0.10.5.tgz#70bd832616fc2b0f31ed65aff81ae9e218c4dbc4"
@@ -2690,64 +2743,6 @@
     lodash "^4.17.15"
     semver "^7.3.2"
     tsutils "^3.17.1"
-
-"@uniswap/governance@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@uniswap/governance/-/governance-1.0.2.tgz#7371ab54dea9a5c045275001e2d5325ff2c11a93"
-  integrity sha512-L7BzdI/asAINB2F6EvJuQcg5YhykNeEfZxJrn2RPIVvx+9A9u+opDuqnBK4SYnanrsr3UEX1NwWXwDHmyw2TjQ==
-
-"@uniswap/lib@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@uniswap/lib/-/lib-1.1.1.tgz#0afd29601846c16e5d082866cbb24a9e0758e6bc"
-  integrity sha512-2yK7sLpKIT91TiS5sewHtOa7YuM8IuBXVl4GZv2jZFys4D2sY7K5vZh6MqD25TPA95Od+0YzCVq6cTF2IKrOmg==
-
-"@uniswap/liquidity-staker@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@uniswap/liquidity-staker/-/liquidity-staker-1.0.2.tgz#afed49d51c5f97411432e891a59a24817728dad6"
-  integrity sha512-Rdj+QqapWO3sY1SJdLUQ8dhf26yXg9DC3XU3cpNoh5jrJ0UhAnKqciZss1F6oxBLbNWXzekuigLgSVbVb1BFcw==
-  dependencies:
-    openzeppelin-solidity-2.3.0 "npm:openzeppelin-solidity@2.3.0"
-
-"@uniswap/merkle-distributor@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@uniswap/merkle-distributor/-/merkle-distributor-1.0.1.tgz#dc3d911f65a860fc3f0cae074bdcd08ed6a27a4d"
-  integrity sha512-5gDiTI5hrXIh5UWTrxKYjw30QQDnpl8ckDSpefldNenDlYO1RKkdUYMYpvrqGi2r7YzLYTlO6+TDlNs6O7hDRw==
-
-"@uniswap/sdk@3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@uniswap/sdk/-/sdk-3.0.3.tgz#8201c7c72215d0030cb99acc7e661eff895c18a9"
-  integrity sha512-t4s8bvzaCFSiqD2qfXIm3rWhbdnXp+QjD3/mRaeVDHK7zWevs6RGEb1ohMiNgOCTZANvBayb4j8p+XFdnMBadQ==
-  dependencies:
-    "@uniswap/v2-core" "^1.0.0"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
-
-"@uniswap/token-lists@^1.0.0-beta.19":
-  version "1.0.0-beta.19"
-  resolved "https://registry.yarnpkg.com/@uniswap/token-lists/-/token-lists-1.0.0-beta.19.tgz#5256db144fba721a6233f43b92ffb388cbd58327"
-  integrity sha512-19V3KM7DAe40blWW1ApiaSYwqbq0JTKMO3yChGBrXzQBl+BoQZRTNZ4waCyoZ5QM45Q0Mxd6bCn6jXcH9G1kjg==
-
-"@uniswap/v2-core@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.0.tgz#e0fab91a7d53e8cafb5326ae4ca18351116b0844"
-  integrity sha512-BJiXrBGnN8mti7saW49MXwxDBRFiWemGetE58q8zgfnPPzQKq55ADltEILqOt6VFZ22kVeVKbF8gVd8aY3l7pA==
-
-"@uniswap/v2-core@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.1.tgz#af8f508bf183204779938969e2e54043e147d425"
-  integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
-
-"@uniswap/v2-periphery@^1.1.0-beta.0":
-  version "1.1.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/v2-periphery/-/v2-periphery-1.1.0-beta.0.tgz#20a4ccfca22f1a45402303aedb5717b6918ebe6d"
-  integrity sha512-6dkwAMKza8nzqYiXEr2D86dgW3TTavUvCR0w2Tu33bAbM8Ah43LKAzH7oKKPRT5VJQaMi1jtkGs1E8JPor1n5g==
-  dependencies:
-    "@uniswap/lib" "1.1.1"
-    "@uniswap/v2-core" "1.0.0"
 
 "@walletconnect/client@^1.1.1-alpha.0":
   version "1.1.1-alpha.0"
