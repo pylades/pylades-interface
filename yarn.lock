@@ -2097,9 +2097,9 @@
     toformat "^2.0.0"
 
 "@pyladesprotocol/token-lists@^1.0.0":
-  version "1.0.0-beta.19"
-  resolved "https://registry.yarnpkg.com/@pyladesprotocol/token-lists/-/token-lists-1.0.0-beta.19.tgz#ffd7c63db6447ae07d3bd21cc6a8cbbe12127dd9"
-  integrity sha512-1WUjRLLriaEdWgxgeTLN9/7vR8hO2+4HigCG7BMjY17fuyDKG4jY2DoZWyYxsG4uALs491usZboxLH2sO5JveA==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@pyladesprotocol/token-lists/-/token-lists-1.0.2.tgz#67691f9393a3d1194281c0a7001176ad25b2a680"
+  integrity sha512-TEQrhw95hJ8py0QrTvdrnWyDZreKpNF7Uce0ZJiQbtG+p1lax86m7oOTrSdi5bGDL8XPU7MtNK4HfMuZokSrCA==
 
 "@reach/dialog@^0.10.3":
   version "0.10.5"
