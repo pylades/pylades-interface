@@ -1,8 +1,9 @@
 {
   "name": "@pyladesprotocol/interface",
+  "version": "1.0.0",
   "description": "Pylades Interface",
   "homepage": ".",
-  "private": true,
+  "author": "Andreas Bigger",
   "devDependencies": {
     "@ethersproject/experimental": "^5.0.1",
     "@popperjs/core": "^2.4.4",
