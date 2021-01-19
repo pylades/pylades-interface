@@ -9,9 +9,9 @@ An open source interface for Pylades -- a protocol for decentralized exchange of
 - Website: [pylades.finance](https://pylades.finance/)
 - Interface: [app.pylades.finance](https://app.pylades.finance)
 - Docs: [pylades.finance/docs/](https://docs.pylades.finance)
-- Twitter: [@PyladesProtocol](https://twitter.com/PyladesProtocol)
+- Twitter: [@pyladesprotocolProtocol](https://twitter.com/PyladesProtocol)
 - Reddit: [/r/pylades](https://www.reddit.com/r/PyladesProtocol/)
-- Email: [contact@pylades.finance](mailto:contact@pylades.finance)
+- Email: [contact@pyladesprotocol.finance](mailto:contact@pyladesprotocol.finance)
 - Discord: [pylades](https://discord.gg/Y7TF6QA)
 - Whitepaper: [Link](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig)
 
@@ -24,7 +24,7 @@ or visit [app.pylades.finance](https://app.pylades.finance).
 ## Listing a token
 
 Please see the
-[@pylades/default-token-list](https://github.com/pylades/default-token-list)
+[@pyladesprotocol/default-token-list](https://github.com/pylades/default-token-list)
 repository.
 
 ## Development
