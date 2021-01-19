@@ -390,7 +390,7 @@ export default function Header() {
                     </TYPE.white>
                   </HideSmall>
                 )}
-                UNI
+                PYL
               </UNIAmount>
               <CardNoise />
             </UNIWrapper>
