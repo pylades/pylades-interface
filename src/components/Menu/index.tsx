@@ -109,7 +109,7 @@ export default function Menu() {
             <Info size={14} />
             About
           </MenuItem>
-          <MenuItem id="link" href="https://pylades.finance/docs/v2">
+          <MenuItem id="link" href="https://pylades.finance/docs">
             <BookOpen size={14} />
             Docs
           </MenuItem>
@@ -127,7 +127,7 @@ export default function Menu() {
           </MenuItem>
           {account && (
             <ButtonPrimary onClick={openClaimModal} padding="8px 16px" width="100%" borderRadius="12px" mt="0.5rem">
-              Claim UNI
+              Claim PYL
             </ButtonPrimary>
           )}
         </MenuFlyout>
