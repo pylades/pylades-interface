@@ -1,4 +1,4 @@
-import { ChainId, TokenAmount } from '@uniswap/sdk'
+import { ChainId, TokenAmount } from '@pylades/sdk'
 import React, { useMemo } from 'react'
 import { X } from 'react-feather'
 import styled from 'styled-components'
@@ -117,7 +117,7 @@ export default function UniBalanceContent({ setShowUniBalanceModal }: { setShowU
               <TYPE.white color="white">{totalSupply?.toFixed(0, { groupSeparator: ',' })}</TYPE.white>
             </RowBetween>
             {uni && uni.chainId === ChainId.MAINNET ? (
-              <ExternalLink href={`https://uniswap.info/token/${uni.address}`}>View UNI Analytics</ExternalLink>
+              <ExternalLink href={`https://pylades.info/token/${uni.address}`}>View UNI Analytics</ExternalLink>
             ) : null}
           </AutoColumn>
         </CardSection>
