@@ -1,5 +1,5 @@
 import { UNI } from './../../constants/index'
-import { TokenAmount, JSBI, ChainId } from '@uniswap/sdk'
+import { TokenAmount, JSBI, ChainId } from '@pyladesprotocol/sdk'
 import { TransactionResponse } from '@ethersproject/providers'
 import { useEffect, useState } from 'react'
 import { useActiveWeb3React } from '../../hooks'
@@ -29,7 +29,7 @@ function fetchClaim(account: string, chainId: ChainId): Promise<UserClaimData | 
 
   return (CLAIM_PROMISES[key] =
     CLAIM_PROMISES[key] ??
-    fetch(`https://gentle-frost-9e74.uniswap.workers.dev/${chainId}/${formatted}`)
+    fetch(`https://gentle-frost-9e74.pylades.workers.dev/${chainId}/${formatted}`)
       .then(res => {
         if (res.status === 200) {
           return res.json()

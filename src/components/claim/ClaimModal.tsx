@@ -1,4 +1,4 @@
-import { JSBI, TokenAmount } from '@uniswap/sdk'
+import { JSBI, TokenAmount } from '@pyladesprotocol/sdk'
 import { isAddress } from 'ethers/lib/utils'
 import React, { useEffect, useState } from 'react'
 import { Text } from 'rebass'
@@ -136,8 +136,8 @@ export default function ClaimModal() {
           </ModalUpper>
           <AutoColumn gap="md" style={{ padding: '1rem', paddingTop: '0' }} justify="center">
             <TYPE.subHeader fontWeight={500}>
-              As a member of the Uniswap community you may claim UNI to be used for voting and governance. <br /> <br />
-              <ExternalLink href="https://uniswap.org/blog/uni">Read more about UNI</ExternalLink>
+              As a member of the Pylades community you may claim UNI to be used for voting and governance. <br /> <br />
+              <ExternalLink href="https://pylades.finance/blog/uni">Read more about UNI</ExternalLink>
             </TYPE.subHeader>
             <ButtonPrimary
               disabled={!isAddress(account ?? '')}

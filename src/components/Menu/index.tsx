@@ -85,7 +85,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/Uniswap/uniswap-interface'
+const CODE_LINK = 'https://github.com/pylades/pylades-interface'
 
 export default function Menu() {
   const { account } = useActiveWeb3React()
@@ -105,11 +105,11 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://uniswap.org/">
+          <MenuItem id="link" href="https://pylades.finance/">
             <Info size={14} />
             About
           </MenuItem>
-          <MenuItem id="link" href="https://uniswap.org/docs/v2">
+          <MenuItem id="link" href="https://pylades.finance/docs/v2">
             <BookOpen size={14} />
             Docs
           </MenuItem>
@@ -121,7 +121,7 @@ export default function Menu() {
             <MessageCircle size={14} />
             Discord
           </MenuItem>
-          <MenuItem id="link" href="https://uniswap.info/">
+          <MenuItem id="link" href="https://pylades.info/">
             <PieChart size={14} />
             Analytics
           </MenuItem>

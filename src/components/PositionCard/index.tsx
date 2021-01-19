@@ -1,4 +1,4 @@
-import { JSBI, Pair, Percent, TokenAmount } from '@uniswap/sdk'
+import { JSBI, Pair, Percent, TokenAmount } from '@pyladesprotocol/sdk'
 import { darken } from 'polished'
 import React, { useState } from 'react'
 import { ChevronDown, ChevronUp } from 'react-feather'
@@ -295,7 +295,7 @@ export default function FullPositionCard({ pair, border, stakedBalance }: Positi
             <ButtonSecondary padding="8px" borderRadius="8px">
               <ExternalLink
                 style={{ width: '100%', textAlign: 'center' }}
-                href={`https://uniswap.info/account/${account}`}
+                href={`https://pylades.info/account/${account}`}
               >
                 View accrued fees and analytics<span style={{ fontSize: '11px' }}>↗</span>
               </ExternalLink>

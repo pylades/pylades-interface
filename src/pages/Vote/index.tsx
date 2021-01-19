@@ -15,7 +15,7 @@ import DelegateModal from '../../components/vote/DelegateModal'
 import { useTokenBalance } from '../../state/wallet/hooks'
 import { useActiveWeb3React } from '../../hooks'
 import { UNI, ZERO_ADDRESS } from '../../constants'
-import { JSBI, TokenAmount, ChainId } from '@uniswap/sdk'
+import { JSBI, TokenAmount, ChainId } from '@pyladesprotocol/sdk'
 import { shortenAddress, getEtherscanLink } from '../../utils'
 import Loader from '../../components/Loader'
 import FormattedCurrencyAmount from '../../components/FormattedCurrencyAmount'
@@ -136,20 +136,20 @@ export default function Vote() {
           <CardSection>
             <AutoColumn gap="md">
               <RowBetween>
-                <TYPE.white fontWeight={600}>Uniswap Governance</TYPE.white>
+                <TYPE.white fontWeight={600}>Pylades Governance</TYPE.white>
               </RowBetween>
               <RowBetween>
                 <TYPE.white fontSize={14}>
-                  UNI tokens represent voting shares in Uniswap governance. You can vote on each proposal yourself or
+                  UNI tokens represent voting shares in Pylades governance. You can vote on each proposal yourself or
                   delegate your votes to a third party.
                 </TYPE.white>
               </RowBetween>
               <ExternalLink
                 style={{ color: 'white', textDecoration: 'underline' }}
-                href="https://uniswap.org/blog/uni"
+                href="https://pylades.org/blog/uni"
                 target="_blank"
               >
-                <TYPE.white fontSize={14}>Read more about Uniswap governance</TYPE.white>
+                <TYPE.white fontSize={14}>Read more about Pylades governance</TYPE.white>
               </ExternalLink>
             </AutoColumn>
           </CardSection>

@@ -1,5 +1,5 @@
 {
-  "name": "Uniswap V2 Unsupported List",
+  "name": "Pylades Unsupported List",
   "timestamp": "2021-01-05T20:47:02.923Z",
   "version": {
     "major": 1,
@@ -8,7 +8,7 @@
   },
   "tags": {},
   "logoURI": "ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir",
-  "keywords": ["uniswap", "unsupported"],
+  "keywords": ["pylades", "unsupported"],
   "tokens": [
     {
       "name": "Gold Tether",

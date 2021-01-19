@@ -1,5 +1,5 @@
 import { UNI, PRELOADED_PROPOSALS } from './../../constants/index'
-import { TokenAmount } from '@uniswap/sdk'
+import { TokenAmount } from '@pyladesprotocol/sdk'
 import { isAddress } from 'ethers/lib/utils'
 import { useGovernanceContract, useUniContract } from '../../hooks/useContract'
 import { useSingleCallResult, useSingleContractMultipleData } from '../multicall/hooks'
@@ -9,7 +9,7 @@ import { calculateGasMargin } from '../../utils'
 import { TransactionResponse } from '@ethersproject/providers'
 import { useTransactionAdder } from '../transactions/hooks'
 import { useState, useEffect, useCallback } from 'react'
-import { abi as GOV_ABI } from '@uniswap/governance/build/GovernorAlpha.json'
+import { abi as GOV_ABI } from '@pyladesprotocol/governance/build/GovernorAlpha.json'
 
 interface ProposalDetail {
   target: string

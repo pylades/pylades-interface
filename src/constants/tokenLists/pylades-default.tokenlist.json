@@ -1,5 +1,5 @@
 {
-  "name": "Uniswap Default List",
+  "name": "Pylades Default List",
   "timestamp": "2021-01-18T18:52:43.076Z",
   "version": {
     "major": 1,
@@ -8,7 +8,7 @@
   },
   "tags": {},
   "logoURI": "ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir",
-  "keywords": ["uniswap", "default"],
+  "keywords": ["pylades", "default"],
   "tokens": [
     {
       "chainId": 1,
@@ -259,7 +259,7 @@
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828/logo.png"
     },
     {
-      "name": "Uniswap",
+      "name": "Pylades",
       "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "symbol": "UNI",
       "decimals": 18,
@@ -323,7 +323,7 @@
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xaD6D458402F60fD3Bd25163575031ACDce07538D/logo.png"
     },
     {
-      "name": "Uniswap",
+      "name": "Pylades",
       "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "symbol": "UNI",
       "decimals": 18,
@@ -355,7 +355,7 @@
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF9bA5210F91D0474bd1e1DcDAeC4C58E359AaD85/logo.png"
     },
     {
-      "name": "Uniswap",
+      "name": "Pylades",
       "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "symbol": "UNI",
       "decimals": 18,
@@ -371,7 +371,7 @@
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc778417E063141139Fce010982780140Aa0cD5Ab/logo.png"
     },
     {
-      "name": "Uniswap",
+      "name": "Pylades",
       "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "symbol": "UNI",
       "decimals": 18,
@@ -403,7 +403,7 @@
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xAaF64BFCC32d0F15873a02163e7E500671a4ffcD/logo.png"
     },
     {
-      "name": "Uniswap",
+      "name": "Pylades",
       "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "symbol": "UNI",
       "decimals": 18,

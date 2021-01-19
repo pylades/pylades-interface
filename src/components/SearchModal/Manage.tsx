@@ -5,10 +5,10 @@ import { ArrowLeft } from 'react-feather'
 import { Text } from 'rebass'
 import { CloseIcon } from 'theme'
 import styled from 'styled-components'
-import { Token } from '@uniswap/sdk'
+import { Token } from '@pyladesprotocol/sdk'
 import { ManageLists } from './ManageLists'
 import ManageTokens from './ManageTokens'
-import { TokenList } from '@uniswap/token-lists'
+import { TokenList } from '@pyladesprotocol/token-lists'
 import { CurrencyModalView } from './CurrencySearchModal'
 
 const Wrapper = styled.div`

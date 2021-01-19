@@ -9,7 +9,7 @@ import { CardSection, DataCard, CardNoise, CardBGImage } from '../../components/
 import { Countdown } from './Countdown'
 import Loader from '../../components/Loader'
 import { useActiveWeb3React } from '../../hooks'
-import { JSBI } from '@uniswap/sdk'
+import { JSBI } from '@pyladesprotocol/sdk'
 import { BIG_INT_ZERO } from '../../constants'
 import { OutlineCard } from '../../components/Card'
 
@@ -62,16 +62,16 @@ export default function Earn() {
           <CardSection>
             <AutoColumn gap="md">
               <RowBetween>
-                <TYPE.white fontWeight={600}>Uniswap liquidity mining</TYPE.white>
+                <TYPE.white fontWeight={600}>Pylades liquidity mining</TYPE.white>
               </RowBetween>
               <RowBetween>
                 <TYPE.white fontSize={14}>
-                  Deposit your Liquidity Provider tokens to receive UNI, the Uniswap protocol governance token.
+                  Deposit your Liquidity Provider tokens to receive UNI, the Pylades protocol governance token.
                 </TYPE.white>
               </RowBetween>{' '}
               <ExternalLink
                 style={{ color: 'white', textDecoration: 'underline' }}
-                href="https://uniswap.org/blog/uni/"
+                href="https://pylades.finance/blog/uni/"
                 target="_blank"
               >
                 <TYPE.white fontSize={14}>Read more about UNI</TYPE.white>
