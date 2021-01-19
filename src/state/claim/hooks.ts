@@ -1,4 +1,4 @@
-import { UNI } from './../../constants/index'
+import { PYL } from './../../constants/index'
 import { TokenAmount, JSBI, ChainId } from '@pyladesprotocol/sdk'
 import { TransactionResponse } from '@ethersproject/providers'
 import { useEffect, useState } from 'react'
@@ -80,7 +80,7 @@ export function useUserUnclaimedAmount(account: string | null | undefined): Toke
   const userClaimData = useUserClaimData(account)
   const canClaim = useUserHasAvailableClaim(account)
 
-  const uni = chainId ? UNI[chainId] : undefined
+  const uni = chainId ? PYL[chainId] : undefined
   if (!uni) return undefined
   if (!canClaim || !userClaimData) {
     return new TokenAmount(uni, JSBI.BigInt(0))

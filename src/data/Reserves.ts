@@ -1,6 +1,6 @@
 import { TokenAmount, Pair, Currency } from '@pyladesprotocol/sdk'
 import { useMemo } from 'react'
-import { abi as IPyladesPairABI } from '@pyladesprotocol/v2-core/build/IPyladesPair.json'
+import { abi as IPyladesPairABI } from '@pyladesprotocol/core/build/IPyladesPair.json'
 import { Interface } from '@ethersproject/abi'
 import { useActiveWeb3React } from '../hooks'
 

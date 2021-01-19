@@ -1,12 +1,12 @@
 import { Contract } from '@ethersproject/contracts'
 import { abi as GOVERNANCE_ABI } from '@pyladesprotocol/governance/build/GovernorAlpha.json'
-import { abi as UNI_ABI } from '@pyladesprotocol/governance/build/Uni.json'
+import { abi as UNI_ABI } from '@pyladesprotocol/governance/build/Pylades.json'
 import { abi as STAKING_REWARDS_ABI } from '@pyladesprotocol/liquidity-staker/build/StakingRewards.json'
 import { abi as MERKLE_DISTRIBUTOR_ABI } from '@pyladesprotocol/merkle-distributor/build/MerkleDistributor.json'
 import { ChainId, WETH } from '@pyladesprotocol/sdk'
 import { abi as IPyladesPairABI } from '@pyladesprotocol/core/build/IPyladesPair.json'
 import { useMemo } from 'react'
-import { GOVERNANCE_ADDRESS, MERKLE_DISTRIBUTOR_ADDRESS, UNI } from '../constants'
+import { GOVERNANCE_ADDRESS, MERKLE_DISTRIBUTOR_ADDRESS, PYL } from '../constants'
 import {
   ARGENT_WALLET_DETECTOR_ABI,
   ARGENT_WALLET_DETECTOR_MAINNET_ADDRESS
@@ -113,7 +113,7 @@ export function useGovernanceContract(): Contract | null {
 
 export function useUniContract(): Contract | null {
   const { chainId } = useActiveWeb3React()
-  return useContract(chainId ? UNI[chainId].address : undefined, UNI_ABI, true)
+  return useContract(chainId ? PYL[chainId].address : undefined, UNI_ABI, true)
 }
 
 export function useStakingContract(stakingAddress?: string, withSignerIfPossible?: boolean): Contract | null {
